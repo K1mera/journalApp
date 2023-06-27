@@ -6,7 +6,10 @@ import {Button, Grid, TextField, Typography} from '@mui/material'
 
 export const NoteView = () => {
   return (
-    <Grid container direction='row' justifyContent='space-between' sx={{ mb: 1 }}>
+    <Grid 
+        className='animate__animated animate__fadeIn'
+        container direction='row' justifyContent='space-between' sx={{ mb: 1 }}
+    >
         <Grid item>
             <Typography fontSize={ 39 } fontWeight='light'>July 28, 3150</Typography>
         </Grid>
